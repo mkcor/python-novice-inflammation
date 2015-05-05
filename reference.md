@@ -72,6 +72,9 @@ subtitle: Reference
 *   Use preconditions to check that the inputs to a function are safe to use.
 *   Use postconditions to check that the output from a function is safe to use.
 *   Write tests before writing code in order to help determine exactly what that code is supposed to do.
+
+## [Debugging](08-debugging.html)
+
 *   Know what code is supposed to do *before* trying to debug it.
 *   Make it fail every time.
 *   Make it fail fast.
@@ -79,7 +82,7 @@ subtitle: Reference
 *   Keep track of what you've done.
 *   Be humble.
 
-## [Command-Line Programs](08-cmdline.html)
+## [Command-Line Programs](09-cmdline.html)
 
 *   The `sys` library connects a Python program to the system it is running on.
 *   The list `sys.argv` contains the command-line arguments that a program was run with.
@@ -87,7 +90,7 @@ subtitle: Reference
 *   The "file" `sys.stdin` connects to a program's standard input.
 *   The "file" `sys.stdout` connects to a program's standard output.
 
-## [Errors and Exceptions](09-errors.html)
+## [Errors and Exceptions](10-errors.html)
 
 *   Tracebacks can look intimidating, but they give us a lot of useful information about what went wrong in our program, including where the error occurred and what type of error it was.
 *   An error having to do with the "grammar" or syntax of the program is called a `SyntaxError`. If the issue has to do with how the code is indented, then it will be called an `IndentationError`.
